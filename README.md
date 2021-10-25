@@ -26,7 +26,7 @@ At the time of writing, no other template satisfied all of the above. As an auto
 
 ## Usage
 
-Click the [***Use this template***](https://github.com/KentoNishi/svelte-typescript-template) button in GitHub to use this template.
+Click the [***Use this template***](https://github.com/KentoNishi/svelte-typescript-template/generate) button in GitHub to use this template.
 
 ## Commands
 
