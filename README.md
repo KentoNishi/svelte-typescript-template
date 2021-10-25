@@ -22,7 +22,7 @@ I prefer this template over other existing templates for several reasons:
 * Easy deploy to GitHub Pages
 * VSCode extensions work out of the box 
 
-At the time of creating this template, I could not find a template which could handle all of the above. As an autoformat and autofix ~~ab~~user, I NEED this template.
+At the time of writing, no other template satisfied all of the above. As an autoformat and autofix ~~ab~~user, I NEED this template. I hope you like it too!
 
 ## Usage
 
