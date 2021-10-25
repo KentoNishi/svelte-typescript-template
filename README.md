@@ -31,8 +31,9 @@ Click the [***Use this template***](https://github.com/KentoNishi/svelte-typescr
 ## Commands
 
 ```bash
-yarn dev
-yarn build
-yarn serve
-yarn check
+yarn       # install
+yarn dev   # dev server
+yarn build # prod build
+yarn serve # serve prod
+yarn check # ts checks
 ```
