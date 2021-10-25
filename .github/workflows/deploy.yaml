@@ -22,7 +22,6 @@ jobs:
 
       - name: Build
         run: |
-          yarn prep
           yarn build --base="/svelte-ts-template"
 
       - name: deploy
