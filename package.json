@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "format": "eslint --cache --fix ."
   },
   "devDependencies": {
     "@ota-meshi/eslint-plugin-svelte": "^0.10.0",
