@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "format": "eslint --cache --fix ."
+    "dev": "vite",
+    "format": "eslint --cache --fix .",
+    "serve": "vite preview"
   },
   "devDependencies": {
     "@ota-meshi/eslint-plugin-svelte": "^0.10.0",
@@ -19,6 +19,7 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-json-format": "^2.0.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-svelte3": "^3.2.1",
     "eslint-plugin-unused-imports": "^1.1.5",
