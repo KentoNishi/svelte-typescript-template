@@ -15,7 +15,7 @@
      */
     "allowJs": true,
     "checkJs": true,
-    "strict": true,
+    // "strict": true,
     "typeRoots": [
       "src/.d.ts"
     ]
