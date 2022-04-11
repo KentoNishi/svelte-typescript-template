@@ -53,7 +53,7 @@ module.exports = {
     ],
     indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],
-    quotes: ['error', 'single'],
+    quotes: 'off',
     semi: ['error', 'always'],
     'eol-last': ['error', 'always'],
     'no-unused-vars': 'off',
