@@ -1,8 +1,13 @@
 <script lang="ts">
-  import { isLoading } from 'svelte-i18n';
-  import Welcome from '../components/Welcome.svelte';
+  import Router from 'svelte-spa-router';
+  import { wrap } from 'svelte-spa-router/wrap';
+  let routes: {
+    [key: string]: any;
+  } = {
+    '/': wrap({
+      asyncComponent: () => import('../components/Welcome.svelte'),
+    }),
+  };
 </script>
 
-{#if !$isLoading}
-  <Welcome />
-{/if}
+<Router {routes} />
