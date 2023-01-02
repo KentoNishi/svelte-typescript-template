@@ -51,7 +51,13 @@ module.exports = {
         ignoreComments: true,
       },
     ],
-    indent: ['error', 2],
+    indent: [
+      'error',
+      2,
+      {
+        ignoredNodes: ['TemplateLiteral', 'ConditionalExpression'],
+      },
+    ],
     'linebreak-style': ['error', 'unix'],
     quotes: 'off',
     semi: ['error', 'always'],
@@ -81,4 +87,11 @@ module.exports = {
     // 'svelte3/typescript': true,
     // 'svelte3/named-blocks': true
   },
+  ignorePatterns: [
+    'package.json',
+    'package-lock.json',
+    'public',
+    'node_modules',
+    'dist',
+  ],
 };

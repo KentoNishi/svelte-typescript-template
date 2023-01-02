@@ -28,6 +28,8 @@ At the time of writing, no other template satisfied all of the above. As an auto
 
 Click the [***Use this template***](https://github.com/KentoNishi/svelte-typescript-template/generate) button in GitHub to use this template.
 
+Once you clone your repository, run `yarn` to install dependencies. Then, reload VSCode to refresh the ESLint extension. Finally, use the `ESLint: Fix all auto-fixable problems` command to auto-fix any file.
+
 ## Commands
 
 ```bash
