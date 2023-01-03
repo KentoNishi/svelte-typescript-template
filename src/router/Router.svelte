@@ -5,7 +5,7 @@
     [key: string]: any;
   } = {
     '/': wrap({
-      asyncComponent: () => import('../components/Welcome.svelte'),
+      asyncComponent: () => import('@/views/Index.svelte'),
     }),
   };
 </script>

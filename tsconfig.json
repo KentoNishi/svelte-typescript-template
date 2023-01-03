@@ -18,7 +18,10 @@
     // "strict": true,
     "typeRoots": [
       "src/.d.ts"
-    ]
+    ],
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": [
     "src/**/*.d.ts",

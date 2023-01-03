@@ -1,7 +1,7 @@
 import './i18n/i18n';
-import App from './views/App.svelte';
+import Index from './router/Router.svelte';
 
-const app = new App({
+const app = new Index({
   target: document.getElementById('app'),
 });
 

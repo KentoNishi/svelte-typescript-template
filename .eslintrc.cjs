@@ -93,5 +93,6 @@ module.exports = {
     'public',
     'node_modules',
     'dist',
+    'tsconfig.json',
   ],
 };
