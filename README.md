@@ -33,10 +33,11 @@ Once you clone your repository, run `yarn` to install dependencies. Then, reload
 ## Commands
 
 ```bash
-yarn        # install
-yarn dev    # dev server
-yarn build  # prod build
-yarn serve  # serve prod
-yarn check  # ts checks
-yarn format # autofix from cli
+yarn                   # install
+yarn dev               # dev server
+yarn build             # prod build
+yarn format            # autofix from cli
+yarn serve             # serve prod
+yarn type:check        # ts checks
+yarn type:check:watch  # ts checks (watch mode)
 ```
