@@ -2,6 +2,10 @@
 
 An opinionated template for my Svelte projects.
 
+## ⚠️ WARNING (July 2023)
+
+This template was created before SvelteKit had a stable and reliable TypeScript configuration. However, as of July 2023, the default SvelteKit template now uses the same core parsers and formatters as I set up in this template. Therefore, I highly recommend you refer to [SvelteKit's  ``Creating a Project''](https://kit.svelte.dev/docs/creating-a-project) page instead of this template.
+
 ## What's Included
 
 * TypeScript
